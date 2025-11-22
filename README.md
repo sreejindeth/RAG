@@ -117,7 +117,7 @@ streamlit run app.py
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `APP_NAME` | NeoStats Blueprint Copilot | Display name |
-| `GEMINI_MODEL` | `gemini-2.0-flash` | LLM used |
+| `GEMINI_MODEL` | `gemini-2.5-flash` | LLM used |
 | `GEMINI_API_KEY` | — | **Required** key |
 | `EMBEDDING_MODEL` | `sentence-transformers/all-MiniLM-L6-v2` | Local embeddings |
 | `TAVILY_API_KEY` | — | Optional live search key |
