@@ -4,6 +4,15 @@
 
 ---
 
+> [!IMPORTANT]
+> **API Quota Limitation**
+> This project uses the **Gemini Free Tier** for demonstration purposes. 
+> * **Limit:** Strict quota of **2 queries per 24 hours**.
+> * **Impact:** If the limit is reached, the LLM will stop generating responses (Error 429).
+> * **Workaround:** For extensive testing, please configure `GEMINI_API_KEY` in `.env.local` with a paid or fresh tier key.
+
+---
+
 ## Table of Contents
 1. [Overview](#overview)
 2. [Architecture](#architecture)
