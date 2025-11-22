@@ -21,7 +21,7 @@
 ## Overview
 - **Use Case:** Financial teams upload internal research, toggle live market search, and get contextual answers with citations.
 - **Spec Compliance:** Pure Python/Streamlit codebase with `config/`, `models/`, `utils/`, `app.py`, `requirements.txt`.
-- **LLM:** Google Gemini (`gemini-2.0-flash`).
+- **LLM:** Google Gemini (`gemini-2.5-flash`).
 - **Embeddings:** `sentence-transformers/all-MiniLM-L6-v2` for local vector search.
 - **Live Search:** Tavily API (optional).
 
